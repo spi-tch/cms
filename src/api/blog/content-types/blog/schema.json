@@ -37,6 +37,13 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "editor": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
     }
   }
 }
